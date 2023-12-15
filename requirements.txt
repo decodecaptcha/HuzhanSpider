@@ -1,4 +1,4 @@
 requests
 loguru
-APScheduler==3.7.0
+# APScheduler==3.7.0
 # pip install -r requirements.txt -i https://pypi.mirrors.ustc.edu.cn/simple/

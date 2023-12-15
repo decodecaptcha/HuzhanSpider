@@ -1,5 +1,7 @@
 # Byte-compiled / optimized / DLL files
 _main.py
+_yilian.py
+logs/
 __pycache__/
 *.py[cod]
 *$py.class

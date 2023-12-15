@@ -1,10 +1,10 @@
-# VivoPhoneAuthCheckSpider
+# HuzhanSpider
 
-DingxiangCaptchaBreak 【vivo官网-手机真伪查询】 案例
+GeetestCaptchaBreak 【互站网-登录/注册案例】 案例
 
 api 地址
 
-* [DingxiangCaptchaBreak](https://github.com/aidencaptcha/DingxiangCaptchaBreak)
+* [GeetestCaptchaBreak](https://github.com/aidencaptcha/GeetestCaptchaBreak)
 
 有需求请在邮箱联系
 
@@ -12,31 +12,41 @@ aidencaptcha@gmail.com
 
 
 # 更新说明
-2023-11-25: 上线 VivoPhoneAuthCheckSpider 【vivo官网-手机真伪查询】 案例
 
-# 演示效果图
-(这里是单ip, 且做了限速处理, 真实情况20qps也无压力)
+2023-12-16: 上线 GeetestCaptchaBreak 极验三代 互站网-登录/注册案例
 
-![image](https://github.com/aidencaptcha/VivoPhoneAuthCheckSpider/blob/main/examples/screenshots.gif)
+2023-12-08: 上线 GeetestCaptchaBreak 极验三代 全新上线
+
+2023-09-26: 上线 GeetestCaptchaBreak 极验四代 虎嗅网登录/注册案例
+
+2023-09-03: GeetestCaptchaBreak 极验四代 全新上线
+
+效果图：
+极验三代
+![image](https://github.com/aidencaptcha/GeetestCaptchaBreak/blob/main/Geetest4_examples/100%E6%88%90%E5%8A%9F%E6%88%AA%E5%9B%BE.jpg)
+
+# 使用此类验证码的网站
+
+基本通用 :
+
+https://www.geetest.com/adaptive-captcha-demo/
+
+https://m.weibo.cn/login/
+
+Web/APP/小程序都通用
+
+......
 
 
+# api 例子地址
 
-vivo官网--手机真伪查询 appKey: 0a9809abafa9157f31e5b8ab9c6d990f
+Geetest4
+* [虎嗅网-登录/注册案例](https://github.com/aidencaptcha/HuXiuSpider)
 
-顶象官网体验 appKey: 12610a3853150e888ccd0c6d4c415626
-
-平安银行--登录/注册 appKey: 9dddc15436d8939ede9bc131558a57bc
-
-山东航空--登录/机票预订 appKey: 73360ce3e32b708eb1a2a95602a614fe
-
-中国国际航空公司--办理值机 appKey: 0a9809abafa9157f31e5b8ab9c6d990f
-...
-
-全部通用
-
+Geetest3
+* [互站网-登录/注册案例](https://github.com/aidencaptcha/HuzhanSpider)
 
 
 ### 免责声明
-* 艾登科技提供的服务仅用于个人学习以及协助个人解决无法识别验证码问题，用户使用艾登科技从事的任何行为均不代表艾登科技的意志和观点，与艾登科技的立场无关。
-* 严禁用户使用艾登科技从事任何违法犯罪行为，请遵守当地的法律法规，任何使用本产品造成的后果由使用者个人承担。
-* 如果有侵犯到您的权益，请第一时间联系个人邮箱处理。
+* 本项目严禁用于非法用途！！请遵守当地的法律法规，若读者将其用于不良用途，其造成的一切后果将自行承担且与本人无关.
+* 如果有侵犯到您的权益，请第一时间联系个人邮箱处理.

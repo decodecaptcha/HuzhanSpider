@@ -5,11 +5,11 @@
 
 # HuzhanSpider
 
-# GeetestCaptchaBreak 极验三代【互站网-登录/注册】 案例
+# GeetestCaptchaBreak 【互站网-登录/注册案例】 案例
 
 # api 地址
 
-# * [GeetestCaptchaBreak ](https://github.com/aidencaptcha/GeetestCaptchaBreak )
+# * [GeetestCaptchaBreak](https://github.com/aidencaptcha/GeetestCaptchaBreak)
 
 # 有需求请在邮箱联系
 
@@ -172,43 +172,17 @@ def main(proxy, token):
         'cookies': response.cookies.get_dict()
     }
 
-def routine(res):
-    # TODO: 请求4-前端业务请求三-商品刷新
-    cookies = res['cookies']
-    url = "https://my.huzhan.com/execute/routine/"
-    payload = "first_select=order&first_role=sell&mode=sale&type=serve&list=goods&batch=uptime&C1=167996049194"
-    headers = {
-        'Connection': 'keep-alive',
-        'Pragma': 'no-cache',
-        'Cache-Control': 'no-cache',
-        'sec-ch-ua': '"Chromium";v="21", " Not;A Brand";v="99"',
-        'Accept': 'application/json, text/javascript, */*; q=0.01',
-        'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
-        'X-Requested-With': 'XMLHttpRequest',
-        'sec-ch-ua-mobile': '?0',
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36',
-        'sec-ch-ua-platform': '"Windows"',
-        'Origin': 'https://my.huzhan.com',
-        'Sec-Fetch-Site': 'same-origin',
-        'Sec-Fetch-Mode': 'cors',
-        'Sec-Fetch-Dest': 'empty',
-        'Referer': 'https://my.huzhan.com/goods/sale',
-        'Accept-Language': 'zh-CN,zh;q=0.9,ja;q=0.8',
-    }
-    response = requests.request("POST", url, headers=headers, cookies=cookies, data=payload)
-    logger.debug(response.text)
-
 
 if __name__ == '__main__':
     proxy = "http://127.0.0.1:7890"
     token = "xxxxxx"
 
     count = 0
-    for i in range(1):
+    for i in range(100):
         res = main(proxy, token)
         if not res:
             continue
-        logger.debug(f"Geetest3CaptchaBreak 【互站网-登录/注册】案例 gt: {res['gt'][:10]}, 令牌：{res['validate'][:10]}..., 登录后的cookies: {str(res['cookies'])[:30]}..., 查询次数: {count+1}")
+        logger.debug(f"GeetestCaptchaBreak 极验三代【互站网-登录/注册】案例 gt: {res['gt'][:10]}..., 极验令牌：{res['validate'][:10]}..., 登录后的cookies: {str(res['cookies'])[:30]}..., 使用次数: {count+1}")
         count += 1
-        # 速度限制
-        time.sleep(10)
+        # 速度限制, 防止风控
+        time.sleep(2)
