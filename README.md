@@ -23,7 +23,7 @@ aidencaptcha@gmail.com
 
 效果图：
 极验三代
-![image](https://github.com/aidencaptcha/GeetestCaptchaBreak/blob/main/Geetest4_examples/100%E6%88%90%E5%8A%9F%E6%88%AA%E5%9B%BE.jpg)
+![image](https://github.com/aidencaptcha/HuzhanSpider/blob/main/examples/screenshots.gif)
 
 # 使用此类验证码的网站
 
